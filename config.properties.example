@@ -1,0 +1,31 @@
+# Configuration WebGuardian
+# Remplacez les valeurs par défaut par vos propres valeurs
+
+# Discord Bot
+discord.token=VOTRE_TOKEN_DISCORD_ICI
+discord.prefix=!
+discord.authorized_channels=ID_CANAL_1,ID_CANAL_2
+discord.alert_channel=ID_CANAL_ALERTE
+discord.report_channel=ID_CANAL_RAPPORT
+
+# Configuration Email
+email.smtp.host=smtp.exemple.com
+email.smtp.port=587
+email.smtp.username=utilisateur@exemple.com
+email.smtp.password=motdepasse
+email.from=webguardian@exemple.com
+email.to=admin@exemple.com,support@exemple.com
+email.smtp.ssl=false
+
+# Configuration Base de données
+db.url=jdbc:h2:./webguardian
+db.username=sa
+db.password=
+db.pool_size=10
+
+# Paramètres de surveillance
+monitoring.default_interval=5
+monitoring.default_timeout=30
+monitoring.default_retries=3
+monitoring.thread_pool=10
+monitoring.check_ssl=true
