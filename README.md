@@ -36,7 +36,7 @@ Le projet est construit selon les principes de la Clean Architecture:
 
 1. Clonez ce dépôt:
    ```
-   git clone https://github.com/username/webguardian.git
+   git clone https://github.com/mangnluis/ServBotERG.git
    cd webguardian
    ```
 
